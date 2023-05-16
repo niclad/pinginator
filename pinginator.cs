@@ -54,7 +54,7 @@ class Program
         writer.WriteLine(header);
       }
 
-      int maxLoops = 10000;																// Max number of data pts to collect
+      int maxLoops = 10000; // Max number of data pts to collect
       int currPing = lineCnt > 0 ? lineCnt : 1; // The current data pt.
       const int sleepMS = 15000;
       while (true && maxLoops > 0)
